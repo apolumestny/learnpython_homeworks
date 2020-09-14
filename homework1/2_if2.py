@@ -28,8 +28,8 @@ def main():
                 return 2
             elif str2 == 'learn':
                 return 3
-        else:
-            return 0
+
+        return 0
 
     print(compareStr(3,4))
     print(compareStr('aaa',4))
